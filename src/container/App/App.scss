@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  height: 11.35rem;
+  .showBox {
+    width: 100%;
+    height: calc(100% - 0.8rem);
+    overflow: auto;
+  }
+  .mask {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    a {
+      display: block;
+      width: 33.3333%;
+      height: .8rem;
+      float: left;
+      p {
+        text-align: center;
+        font-size: .24rem;
+        margin-bottom: 0;
+        color: black;
+      }
+    }
+    a.active {
+      p {
+        color: #2593fc;
+      }
+    }
+
+  }
+  a {
+    color: black;
+  }
+}
+

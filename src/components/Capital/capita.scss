@@ -1,0 +1,53 @@
+.capitalBox {
+  header {
+    text-align: center;
+    background-color: #2593fc;
+    height: .6rem;
+    font-size: .3rem;
+    color: white;
+    line-height: .6rem;
+    .goBack {
+      float: left;
+      color: white;
+    }
+  }
+  .capitalForm {
+    width: 94%;
+    margin: .6rem auto;
+    .capitalTip {
+      font-size: .24rem;
+      color: #ccc;
+      span {
+        color: red;
+      }
+    }
+    .theForm {
+      width: 100%;
+      height: .6rem;
+      border-bottom: 1px solid #ccc;
+      overflow: hidden;
+      p.tip {
+        float: left;
+        color: black;
+        font-size: .3rem;
+
+      }
+      p.yuan {
+        float: right;
+        color: red;
+        font-size: .3rem;
+      }
+      input {
+        float: right;
+        outline: none;
+        border: none;
+        text-align: right;
+        font-size: .28rem;
+        margin-right: .1rem;
+      }
+    }
+    .submit {
+      width: 100%;
+    }
+  }
+}

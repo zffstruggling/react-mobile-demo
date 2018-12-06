@@ -1,0 +1,30 @@
+.worksBox {
+  .banner {
+    width: 100%;
+    height: 3rem;
+  }
+  .zones {
+    width: 94%;
+    height: 1rem;
+    margin: .4rem auto;
+  }
+  .dataBox {
+    width: 94%;
+    margin: 0 auto;
+  }
+  .newWorks {
+    width: 94%;
+    margin: 0 auto;
+  }
+}
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}

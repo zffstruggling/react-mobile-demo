@@ -1,0 +1,18 @@
+.changePWBox{
+  header {
+    text-align: center;
+    background-color: #2593fc;
+    height: .6rem;
+    font-size: .3rem;
+    color: white;
+    line-height: .6rem;
+    .goBack {
+      float: left;
+      color: white;
+    }
+  }
+  .changePWForm{
+    width: 5rem;
+    margin: .4rem auto;
+  }
+}

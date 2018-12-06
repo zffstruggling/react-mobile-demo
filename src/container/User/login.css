@@ -1,0 +1,14 @@
+.loginBox {
+    width: 5rem;
+    margin: 2rem auto;
+}
+#root .login-form {
+    max-width: 5rem;
+}
+#root .login-form-forgot {
+    float: right;
+}
+#root .login-form-button {
+    width: 100%;
+    display: block;
+}
